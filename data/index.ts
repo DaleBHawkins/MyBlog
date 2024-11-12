@@ -45,7 +45,7 @@ export const seoData = {
     'empty',
   image:
     'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
-  mySite: 'https://blog-nurriyad.vercel.app/',
+  mySite: 'https://dalebh.space/',
   twitterHandle: '@qdnvubp',
   mailAddress: '2362626948@qq.com',
 }
