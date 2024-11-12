@@ -124,9 +124,7 @@ const copyLink = () => {
         class="p-1"
         aria-label="Share with {network}"
       />
-      <div>
-        <button @click="copyLink" title="复制本文链接"> <Icon name="fa:link" size="1em" title="复制本文链接"/></button>
-      </div>
+      <button @click="copyLink" title="复制本文链接"> <Icon name="fa:link" size="1em" title="复制本文链接"/></button>
     </div>
   </div>
 </template>

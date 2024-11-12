@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc407e5-6239-42bd-8c7b-dcfaedd2298e" name="更改" comment="1.更新mysite">
+    <list default="true" id="1cc407e5-6239-42bd-8c7b-dcfaedd2298e" name="更改" comment="1.为文章添加分享链接&#10;2.添加motto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blogs/1. connect-namecheap-to-vercel.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blogs/1. connect-namecheap-to-vercel.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/blogs/[blog].vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blogs/[blog].vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <list id="5f299f46-2fbf-4f6e-8aa8-6a381336d6ce" name="取消搁置" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +59,9 @@
     <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/zhead@2.2.4/node_modules/zhead/dist/db.d.cts" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/zhead@2.2.4/node_modules/zhead/dist/db.d.mts" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/zhead@2.2.4/node_modules/zhead/dist/db.d.ts" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -195,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731380453622</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.为文章添加分享链接&#10;2.添加motto">
+      <option name="closed" value="true" />
+      <created>1731403113187</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731403113187</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +233,8 @@
     <MESSAGE value="1.更新80%的中文内容&#10;2.添加自定义的图标文件" />
     <MESSAGE value="更新README" />
     <MESSAGE value="1.完成前端页面构建" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.完成前端页面构建" />
+    <MESSAGE value="1.为文章添加分享链接&#10;2.添加motto" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.为文章添加分享链接&#10;2.添加motto" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
