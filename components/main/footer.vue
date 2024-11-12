@@ -15,15 +15,10 @@ const path = computed(() => route.fullPath.replace('/', ''))
       </div>
 
       <div class="border-t dark:border-gray-800 mt-5 text-center p-2">
-        © 2020-2024 No Right is reserved. Who cares 🤷‍♂️? It's
-        <a href="https://github.com/nurriyad/blog" target="_blank" rel="nofollow" class="underline"
-          >open source</a
+        © 2024-ForEver All Rights Reserved @Dale B Hawkins. Based on
+        <a href="https://github.com/DaleBHawkins" target="_blank" rel="nofollow" class="underline"
+          >Vercel</a
         >
-        anyway.
-
-        <a href="/rss.xml" aria-label="Website RSS Feed">
-          <span class="px-3"><Icon name="bi:rss-fill" /></span
-        ></a>
       </div>
     </div>
   </div>

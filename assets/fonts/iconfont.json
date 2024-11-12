@@ -1,0 +1,23 @@
+{
+  "id": "4741806",
+  "name": "myyblog",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "40653226",
+      "name": "bilibili-copy",
+      "font_class": "bilibili2",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "27721603",
+      "name": "gitee",
+      "font_class": "gitee",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    }
+  ]
+}

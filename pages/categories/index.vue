@@ -20,7 +20,7 @@ data.value?.forEach((blog) => {
 })
 
 useHead({
-  title: 'Categories',
+  title: 'Tag分类',
   meta: [
     {
       name: 'description',
@@ -34,7 +34,7 @@ useHead({
 const siteData = useSiteConfig()
 defineOgImage({
   props: {
-    title: 'Categories',
+    title: 'Tag分类',
     description:
       'Below All the topics are listed on which either I have written a blog or will write a blog in near future.',
     siteName: siteData.url,

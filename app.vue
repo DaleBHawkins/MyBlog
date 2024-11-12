@@ -19,6 +19,12 @@ useHead({
 </template>
 
 <style>
+@font-face {
+  font-family: 'iconfont';  /* Project id 4301938 */
+  src: url('@/assets/fonts/iconfont.woff2') format('woff2'),
+  url('@/assets/fonts/iconfont.woff') format('woff'),
+  url('@/assets/fonts/iconfont.ttf') format('truetype');
+}
 .page-enter-active,
 .page-leave-active {
   transition: all 0.4s;

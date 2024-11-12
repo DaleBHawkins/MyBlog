@@ -4,7 +4,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Page not found',
+      content: '页面不存在',
     },
   ],
 })
@@ -12,7 +12,7 @@ useHead({
 defineOgImageComponent('About', {
   headline: 'Wrong Path',
   title: '404',
-  description: 'Page Not Found',
+  description: '页面不存在',
 })
 </script>
 

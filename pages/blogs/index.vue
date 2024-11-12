@@ -60,11 +60,11 @@ function onNextPageClick() {
 }
 
 useHead({
-  title: 'Archive',
+  title: '博客',
   meta: [
     {
-      name: 'description',
-      content: 'Here you will find all the blog posts I have written & published on this site.',
+      name: '简述',
+      content: '在这里，你可以找到我在这个网站上写和发表的所有博客文章。',
     },
   ],
 })
@@ -73,8 +73,8 @@ useHead({
 const siteData = useSiteConfig()
 defineOgImage({
   props: {
-    title: 'Archive',
-    description: 'Here you will find all the blog posts I have written & published on this site.',
+    title: '博客',
+    description: '在这里，你可以找到我在这个网站上写和发表的所有博客文章。',
     siteName: siteData.url,
   },
 })
@@ -87,7 +87,7 @@ defineOgImage({
     <div class="px-6">
       <input
         v-model="searchTest"
-        placeholder="Search"
+        placeholder="搜索全部内容"
         type="text"
         class="block w-full bg-[#F1F2F4] dark:bg-slate-900 dark:placeholder-zinc-500 text-zinc-300 rounded-md border-gray-300 dark:border-gray-800 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
       />

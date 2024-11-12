@@ -5,7 +5,7 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-  title: 'No title available',
+  title: '没有标签可以提供',
   count: 0,
 })
 

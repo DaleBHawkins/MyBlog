@@ -40,7 +40,6 @@ export default defineNuxtConfig({
     identity: {
       type: 'Person',
     },
-    twitter: seoData.twitterHandle,
   },
 
   typescript: {
@@ -65,4 +64,10 @@ export default defineNuxtConfig({
       theme: 'dracula',
     },
   },
+  plugins:[
+    {src:'@/assets/fonts/iconfont.js'}
+  ],
+  css:[
+    '@/assets/fonts/iconfont.css',
+  ]
 })
