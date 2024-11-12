@@ -85,6 +85,10 @@ defineOgImageComponent('Test', {
   description: data.value.description || '',
   link: data.value.ogImage,
 })
+
+const copyLink = () => {
+  navigator.clipboard.writeText(`${seoData.mySite}/${path}`)
+}
 </script>
 
 <template>
@@ -103,7 +107,7 @@ defineOgImageComponent('Test', {
       >
         <ContentRenderer v-if="articles" :value="articles">
           <template #empty>
-            <p>No content found.</p>
+            <p>没有内容</p>
           </template>
         </ContentRenderer>
       </div>
@@ -112,7 +116,7 @@ defineOgImageComponent('Test', {
 
     <div class="flex flex-row flex-wrap md:flex-nowrap mt-10 gap-2">
       <SocialShare
-        v-for="network in ['facebook', 'twitter', 'linkedin', 'email']"
+        v-for="network in ['email']"
         :key="network"
         :network="network"
         :styled="true"
@@ -120,6 +124,9 @@ defineOgImageComponent('Test', {
         class="p-1"
         aria-label="Share with {network}"
       />
+      <div>
+        <button @click="copyLink" title="复制本文链接"> <Icon name="fa:link" size="1em" title="复制本文链接"/></button>
+      </div>
     </div>
   </div>
 </template>

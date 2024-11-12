@@ -7,7 +7,7 @@ useHead({
     {
       name: 'description',
       content:
-        '欢迎来到我的博客网站。获取Web开发、Javascript、Typescript、NodeJ、Vue和Nuxt、相关文章、技巧、学习资源等。',
+        '欢迎来到我的博客网站。获取Web开发、Javascript、Typescript、NodeJS、Vue和Nuxt、相关文章、技巧、学习资源等。',
     },
   ],
 })

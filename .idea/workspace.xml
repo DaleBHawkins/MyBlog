@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc407e5-6239-42bd-8c7b-dcfaedd2298e" name="更改" comment="1.完成前端页面构建">
+    <list default="true" id="1cc407e5-6239-42bd-8c7b-dcfaedd2298e" name="更改" comment="1.更新mysite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blogs/1. connect-namecheap-to-vercel.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blogs/1. connect-namecheap-to-vercel.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blogs/[blog].vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blogs/[blog].vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <list id="5f299f46-2fbf-4f6e-8aa8-6a381336d6ce" name="取消搁置" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +60,12 @@
     &quot;accountId&quot;: &quot;8f4eab92-5589-4259-aae6-ab34018157e2&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/nuxt-og-image@3.0.8_magicast@0.3.5_rollup@4.24.4_vite@5.4.10_@types+node@22.9.0_terser@5.36.0_iyppjc2ovexdhays5dliyl3way/node_modules/nuxt-og-image/dist/runtime/types.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/zhead@2.2.4/node_modules/zhead/dist/db.d.cts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/zhead@2.2.4/node_modules/zhead/dist/db.d.mts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/zhead@2.2.4/node_modules/zhead/dist/db.d.ts" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -63,29 +75,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "22.9.0",
-    "javascript.nodejs.core.library.typings.version": "22.9.0",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/devprojects/DaleBlog/nuxt-blog/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "pnpm",
-    "npm.build.executor": "Run",
-    "npm.postinstall.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "D:\\devprojects\\DaleBlog\\nuxt-blog\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "D:\\devprojects\\DaleBlog\\nuxt-blog\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.9.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.0&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/devprojects/DaleBlog/nuxt-blog/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.postinstall.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\devprojects\\DaleBlog\\nuxt-blog\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\devprojects\\DaleBlog\\nuxt-blog\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\devprojects\DaleBlog\nuxt-blog\public" />

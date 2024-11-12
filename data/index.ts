@@ -1,5 +1,6 @@
 export const navbarData = {
   homeTitle: "Dale's Blog",
+  motto: "love life.",
 }
 
 export const footerData = {
@@ -9,13 +10,13 @@ export const footerData = {
   authorInterest:
     "我喜欢听音乐、看科幻电影还有玩游戏，当然，写代码也是我所热爱的事情之一。",
   aboutTheSite:
-    "这个博客建立于2024年11月，它不仅仅会记录我的技术进步，也会用于记录我的日常点滴，或者是一些人生随想，总之，它将会是我的一个新的起点。",
+    "此博客会用于记录我的学习技术取得的进步，也会用于记录我的日常点滴，或者是一些人生随想，总之，它将会是我的一个新的起点。",
 }
 
 export const homePage = {
   title: '欢迎来到我博客',
   description:
-    '欢迎来到我的博客网站。获取Web开发、Javascript、Typescript、NodeJ、Vue和Nuxt、相关文章、技巧、学习资源等。',
+    '欢迎来到我的博客网站。获取Web开发相关文章、技巧、学习资源等。',
 }
 
 export const blogsPage = {
@@ -31,7 +32,7 @@ export const categoryPage = {
 
 export const aboutPage = {
   title: 'Dale B Hawkins / 周小双',
-  description: 'Web开发工程师，毕业于乐山师范学院。{也略微会一点后端/汇编以及硬件开发}。',
+  description: 'Web开发工程师 / 毕业于乐山师范学院。',
   aboutMe:
     "我喜欢听歌 {乡村/流行/一点点POP},同时我也喜欢看电影 {科幻电影}是我的最爱，也会看历史题材的电影，总之，如果有好电影，请记得 E-mail我,时不时我也会玩玩游戏，《彩虹六号:围攻》是陪伴我最久的游戏，它让我的大学生活变得有趣，轻松，阳光，如果你也喜欢，请添加我的 Ubisoft Connect: DALEABC。",
 }

@@ -21,6 +21,9 @@ function isActive(path: string) {
             {{ navbarData.homeTitle }}
           </NuxtLink>
         </li>
+        <li class="text-base sm:text-1xl font-bold">
+            {{ navbarData.motto }}
+        </li>
       </ul>
       <ul class="flex items-center space-x-3 sm:space-x-6 text-sm sm:text-lg">
         <li>

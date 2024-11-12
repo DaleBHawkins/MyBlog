@@ -16,7 +16,7 @@ const path = computed(() => route.fullPath.replace('/', ''))
 
       <div class="border-t dark:border-gray-800 mt-5 text-center p-2">
         © 2024-ForEver All Rights Reserved @Dale B Hawkins. Based on
-        <a href="https://github.com/DaleBHawkins" target="_blank" rel="nofollow" class="underline"
+        <a href="https://vercel.com" target="_blank" rel="nofollow" class="underline"
           >Vercel</a
         >
       </div>
