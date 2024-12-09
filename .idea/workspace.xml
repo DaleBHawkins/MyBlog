@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc407e5-6239-42bd-8c7b-dcfaedd2298e" name="更改" comment="1.Share按钮优化">
-      <change afterPath="$PROJECT_DIR$/.idea/UniappTool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_11_11_17_40____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_11_11_17_40_取消提交了更改_[更改]/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_11_11_17_40_取消提交了更改_[更改]/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_11_11_17_40_取消提交了更改_[更改]/iconfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_11_11_17_40_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
+    <list default="true" id="1cc407e5-6239-42bd-8c7b-dcfaedd2298e" name="更改" comment="1.更新logo">
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" />
     </list>
     <list id="5f299f46-2fbf-4f6e-8aa8-6a381336d6ce" name="取消搁置" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,34 +73,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.9.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.0&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/devprojects/DaleBlog/nuxt-blog/content&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.postinstall.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\devprojects\\DaleBlog\\nuxt-blog\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\devprojects\\DaleBlog\\nuxt-blog\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "22.9.0",
+    "javascript.nodejs.core.library.typings.version": "22.9.0",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/devprojects/DaleBlog/nuxt-blog/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.build.executor": "Run",
+    "npm.postinstall.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "D:\\devprojects\\DaleBlog\\nuxt-blog\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "D:\\devprojects\\DaleBlog\\nuxt-blog\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\devprojects\DaleBlog\nuxt-blog\content" />
       <recent name="D:\devprojects\DaleBlog\nuxt-blog\public" />
+      <recent name="D:\devprojects\DaleBlog\nuxt-blog\content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\devprojects\DaleBlog\nuxt-blog\content\blogs" />
@@ -167,7 +163,7 @@
       <workItem from="1731547626862" duration="40000" />
       <workItem from="1731569114751" duration="667000" />
       <workItem from="1733713465683" duration="62000" />
-      <workItem from="1733714489031" duration="334000" />
+      <workItem from="1733714489031" duration="1637000" />
     </task>
     <task id="LOCAL-00001" summary="1.更新80%的中文内容&#10;2.添加自定义的图标文件">
       <option name="closed" value="true" />
@@ -225,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731404684732</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.更新logo">
+      <option name="closed" value="true" />
+      <created>1733715112768</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733715112768</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +264,8 @@
     <MESSAGE value="1.完成前端页面构建" />
     <MESSAGE value="1.为文章添加分享链接&#10;2.添加motto" />
     <MESSAGE value="1.Share按钮优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Share按钮优化" />
+    <MESSAGE value="1.更新logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.更新logo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
