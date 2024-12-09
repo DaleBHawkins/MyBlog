@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc407e5-6239-42bd-8c7b-dcfaedd2298e" name="更改" comment="1.为文章添加分享链接&#10;2.添加motto">
+    <list default="true" id="1cc407e5-6239-42bd-8c7b-dcfaedd2298e" name="更改" comment="1.Share按钮优化">
+      <change afterPath="$PROJECT_DIR$/.idea/UniappTool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_11_11_17_40____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_11_11_17_40_取消提交了更改_[更改]/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_11_11_17_40_取消提交了更改_[更改]/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_11_11_17_40_取消提交了更改_[更改]/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_11_11_17_40_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blogs/[blog].vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blogs/[blog].vue" afterDir="false" />
     </list>
     <list id="5f299f46-2fbf-4f6e-8aa8-6a381336d6ce" name="取消搁置" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,11 +81,12 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.9.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.0&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/devprojects/DaleBlog/nuxt-blog/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/devprojects/DaleBlog/nuxt-blog/content&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,7 +103,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\devprojects\DaleBlog\nuxt-blog\content" />
       <recent name="D:\devprojects\DaleBlog\nuxt-blog\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\devprojects\DaleBlog\nuxt-blog\content\blogs" />
     </key>
   </component>
   <component name="RunManager" selected="npm.postinstall">
@@ -131,8 +141,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -151,6 +161,13 @@
       <workItem from="1731293719265" duration="15552000" />
       <workItem from="1731319678241" duration="655000" />
       <workItem from="1731373547227" duration="7434000" />
+      <workItem from="1731460449669" duration="19000" />
+      <workItem from="1731468310318" duration="2913000" />
+      <workItem from="1731486817939" duration="12000" />
+      <workItem from="1731547626862" duration="40000" />
+      <workItem from="1731569114751" duration="667000" />
+      <workItem from="1733713465683" duration="62000" />
+      <workItem from="1733714489031" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="1.更新80%的中文内容&#10;2.添加自定义的图标文件">
       <option name="closed" value="true" />
@@ -200,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731403113187</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.Share按钮优化">
+      <option name="closed" value="true" />
+      <created>1731404684732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731404684732</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +259,8 @@
     <MESSAGE value="更新README" />
     <MESSAGE value="1.完成前端页面构建" />
     <MESSAGE value="1.为文章添加分享链接&#10;2.添加motto" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.为文章添加分享链接&#10;2.添加motto" />
+    <MESSAGE value="1.Share按钮优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Share按钮优化" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
