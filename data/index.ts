@@ -4,7 +4,7 @@ export const navbarData = {
 }
 
 export const footerData = {
-  author: 'Dale B Hawkins / 周小双',
+  author: 'Dale B Hawkins',
   aboutAuthor:
     '你好！我叫Dale B Hawkins，是一名来中国的开发者。希望你喜欢我的博客！下面是我的社交链接:',
   authorInterest:
@@ -31,7 +31,7 @@ export const categoryPage = {
 }
 
 export const aboutPage = {
-  title: 'Dale B Hawkins / 周小双',
+  title: 'Dale B Hawkins',
   description: 'Web开发工程师 / 毕业于乐山师范学院。',
   aboutMe:
     "我喜欢听歌 {乡村/流行/一点点POP},同时我也喜欢看电影 {科幻电影}是我的最爱，也会看历史题材的电影，总之，如果有好电影，请记得 E-mail我,时不时我也会玩玩游戏，《彩虹六号:围攻》是陪伴我最久的游戏，它让我的大学生活变得有趣，轻松，阳光，如果你也喜欢，请添加我的 Ubisoft Connect: DALEABC。",
